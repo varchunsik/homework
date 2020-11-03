@@ -34,8 +34,8 @@ namespace _5._1
             str = str.Replace("J", ")");
             str = str.Replace("K", "|<");
             str = str.Replace("L", "1");
-            str = str.Replace("M", "||");
-            str = str.Replace("N", "||");
+            str = str.Replace("M", "|\/|");
+            str = str.Replace("N", "|\|");
             str = str.Replace("O", "0");
             str = str.Replace("P", "|>");
             str = str.Replace("Q", "9");
@@ -43,7 +43,7 @@ namespace _5._1
             str = str.Replace("S", "5");
             str = str.Replace("T", "7");
             str = str.Replace("U", "|_|");
-            str = str.Replace("V", "");
+            str = str.Replace("V", "\/");
             str = str.Replace("X", "><");
             str = str.Replace("Y", "`/");
             str = str.Replace("Z", "2");
@@ -60,8 +60,8 @@ namespace _5._1
             str = str.Replace("j", ")");
             str = str.Replace("k", "|<");
             str = str.Replace("l", "1");
-            str = str.Replace("m", "||");
-            str = str.Replace("n", "||");
+            str = str.Replace("m", "|\/|");
+            str = str.Replace("n", "|\|");
             str = str.Replace("o", "0");
             str = str.Replace("p", "|>");
             str = str.Replace("q", "9");
@@ -69,11 +69,10 @@ namespace _5._1
             str = str.Replace("s", "5");
             str = str.Replace("t", "7");
             str = str.Replace("u", "|_|");
-            str = str.Replace("v", "");
+            str = str.Replace("v", "\/");
             str = str.Replace("x", "><");
             str = str.Replace("y", "`/");
             str = str.Replace("z", "2");
-
             return str;
         }
 
