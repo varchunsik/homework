@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructVector3DLibrary", "StructVector3DLibrary\StructVector3DLibrary.csproj", "{F32F9F06-912E-43B5-82A9-7B408829D6F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorUnitTests", "VectorUnitTests\VectorUnitTests.csproj", "{5358E469-2852-4D66-BAA3-08BC42575FF7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F32F9F06-912E-43B5-82A9-7B408829D6F3} = {F32F9F06-912E-43B5-82A9-7B408829D6F3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F32F9F06-912E-43B5-82A9-7B408829D6F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32F9F06-912E-43B5-82A9-7B408829D6F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32F9F06-912E-43B5-82A9-7B408829D6F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32F9F06-912E-43B5-82A9-7B408829D6F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5358E469-2852-4D66-BAA3-08BC42575FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5358E469-2852-4D66-BAA3-08BC42575FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5358E469-2852-4D66-BAA3-08BC42575FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5358E469-2852-4D66-BAA3-08BC42575FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41A5699E-0058-454D-87D1-FDAA5689A005}
+	EndGlobalSection
+EndGlobal
